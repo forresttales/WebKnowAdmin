@@ -1,0 +1,2 @@
+module JournalposterMapsHelper
+end

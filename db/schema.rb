@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140507113221) do
+ActiveRecord::Schema.define(version: 20140508093858) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -134,6 +134,10 @@ ActiveRecord::Schema.define(version: 20140507113221) do
     t.integer  "pos_y",      default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "area_text"
+    t.integer  "area",       default: 0
+    t.integer  "area_pos",   default: 0
+    t.boolean  "pos_used",   default: false
   end
 
   add_index "journal1poster_positions", ["id_map"], name: "index_journal1poster_positions_on_id_map", using: :btree
@@ -158,6 +162,10 @@ ActiveRecord::Schema.define(version: 20140507113221) do
     t.integer  "pos_y",      default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "area_text"
+    t.integer  "area",       default: 0
+    t.integer  "area_pos",   default: 0
+    t.boolean  "pos_used",   default: false
   end
 
   add_index "journal2poster_positions", ["id_map"], name: "index_journal2poster_positions_on_id_map", using: :btree
@@ -182,6 +190,10 @@ ActiveRecord::Schema.define(version: 20140507113221) do
     t.integer  "pos_y",      default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "area_text"
+    t.integer  "area",       default: 0
+    t.integer  "area_pos",   default: 0
+    t.boolean  "pos_used",   default: false
   end
 
   add_index "journal3poster_positions", ["id_map"], name: "index_journal3poster_positions_on_id_map", using: :btree
@@ -206,6 +218,10 @@ ActiveRecord::Schema.define(version: 20140507113221) do
     t.integer  "pos_y",      default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "area_text"
+    t.integer  "area",       default: 0
+    t.integer  "area_pos",   default: 0
+    t.boolean  "pos_used",   default: false
   end
 
   add_index "journal4poster_positions", ["id_map"], name: "index_journal4poster_positions_on_id_map", using: :btree
@@ -230,6 +246,10 @@ ActiveRecord::Schema.define(version: 20140507113221) do
     t.integer  "pos_y",      default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "area_text"
+    t.integer  "area",       default: 0
+    t.integer  "area_pos",   default: 0
+    t.boolean  "pos_used",   default: false
   end
 
   add_index "journal5poster_positions", ["id_map"], name: "index_journal5poster_positions_on_id_map", using: :btree

@@ -32,6 +32,7 @@ gem 'roo'
 gem "render_csv"
 gem 'rubyXL'
 gem 'rubyzip', '< 1.0.0'
+gem 'php'
 
 
 group :doc do

@@ -2,6 +2,8 @@ class StaticPagesController < ApplicationController
   
   layout 'application'
   
+  require 'php'
+  
   def home
     
   end

@@ -14,18 +14,20 @@
 		div.table-page {
 			/*display: table;*/
 			background-color: #E3DDCF;
-			width: 1200px;
+			width: 1000px;
 			/*height: 600px;*/
 			border-radius: 0px;
 			padding-top: 20px;
 			padding-bottom: 40px;
 			padding-left: 10px;
-			padding-right: 10px;			
+			padding-right: 10px;		
+			margin-left: 12px;
+			/*margin: 0 auto;*/	
 		}
 		table.table-layout-fixed {
 			/*display: table;*/
 			table-layout: fixed;
-			width: 1200px;
+			width: 980px;
 		}
 		.table-page p {
 			font-family: msyh; 
@@ -104,7 +106,7 @@
     		height: 24px;
     	}
     	#tbltablets {
-    		width: 10000px; 
+    		width: 1000px; 
     	}
     	table#tbltablets th {
     		padding-left: 0px;
@@ -172,7 +174,7 @@
 		}				
 		#tablets .scrollbox-both {
 	 		height:330px;
-	 		width:1200px;
+	 		width:1000px;
 	 		overflow:scroll;
 	 		/*border:1px solid #651375;*/		
 		}
@@ -181,14 +183,14 @@
 
 		.tablebox-header {
 	 		height:16px;
-	 		width:1200px;
+	 		width:980px;
 	 		border-bottom:1px solid #651375;
 	 		overflow: hidden;			 				
 		}
 		
 		.tablebox {
 	 		height:400px;
-	 		width:1200px;
+	 		width:980px;
 	 		border-color: #fff;
 	 		overflow: auto;		
 	 		border: none;
@@ -204,7 +206,7 @@
 	 		width:1200px;			
 		}*/
 		table.tbltablets {
-			width: 15410px;
+			width: 1500px;
 		}
     	table.tbltablets th {
     		padding-left: 0px;

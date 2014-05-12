@@ -1,0 +1,75 @@
+
+	<style>
+		
+		.journalposter-background {
+			width: 1000px;
+			height: 710px;
+			/*background: #000 url('/assets/poster-map-unpop-w1000-h710.png') no-repeat right top;*/
+		}
+		
+		
+	</style>
+
+					<div id="journalposter_background" class="journalposter-background">
+
+						<div id="test_btn" style="width: 20px; height: 20px; background-color: red;"></div>											
+					</div>
+
+	<script>
+			
+			//$(window).load( function() {
+			$(document).ready(function(){
+				// alert('ready');
+				
+				var image = '../journal_poster/poster-map-unpop-w1000-h710.png';
+				$('#journalposter_background').css({
+					background: '#000 url(' + image + ') no-repeat right top'
+				});
+				
+				// $('#journalposter_background').mousemove( function(e){
+					// $('#map_coordinate_x').html(e.pageX);
+					// $('#map_coordinate_y').html(e.pageY);
+				// });			  			
+				
+				
+				$("#test_btn").on("click", SendMessage);
+				
+				// $('#test_btn').on('click', function() {
+					// alert('click in iframe');
+					// SendMessage();
+				// });
+				
+				// new message: raise newMessage event
+				function SendMessage(e) {
+				
+					alert('SendMessage');
+					
+					//e.preventDefault();
+					//var msg = $("#msg").val().trim();
+					//if (msg) {
+						$.event.trigger({
+							type: "newMessage"
+							// message: msg
+							// time: new Date()
+						});
+					//}
+				
+				}				
+				
+				
+				
+			});
+		
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
